@@ -1,0 +1,47 @@
+
+
+pip install django
+
+django-admin startproject myproject001
+cd myproject001
+python manage.py runserver 8000 
+python manage.py startapp myapp001
+
+in myapp001 create folder called "templates"
+in templates create index.html
+in myproject(2) folder, in settings.py:
+    create 2 edits
+
+in myapp001 , in views.py:
+    create function myiewfunct  
+in myapp001, create urls.py
+    modify ..  urlspatterns=[]
+in myproject
+    modify urls.py
+
+in Anconda app :
+conda env list (optional)
+
+cd Django001
+conda activate env_Django311
+cd myproject
+python manage.py runserver 8000    
+
+http://127.0.0.1:8000/myapp001/myview/
+
+when finished:
+CTRL C
+conda deactivate  
+
+
+
+
+
+
+
+
+
+
+
+
+

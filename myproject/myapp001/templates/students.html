@@ -1,0 +1,31 @@
+{% extends "base.html" %}  
+{% block title %} Students -Title 
+
+
+
+{% for student in students  %}
+       <li> {{ student.name }} </li>
+
+
+{% endfor %}
+
+
+<br/>
+<h1> Repeat 001 </h1>
+{% for student in students  %}
+       <li> {{ student.name }} </li>
+
+
+{% endfor %}
+
+
+
+{% endblock %}
+
+<br/>
+<h1> Repeat 002 </h1>
+{% for student in students  %}
+       <li> {{ student.name }} </li>
+
+
+{% endfor %}
