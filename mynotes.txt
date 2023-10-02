@@ -19,15 +19,24 @@ in myapp001, create urls.py
 in myproject
     modify urls.py
 
-in Anconda app :
+
+
+**  in Anconda app -> NOTE VS Code terminal might not work so use Anaconca :
 conda env list (optional)
 
 cd Django001
 conda activate env_Django311
 cd myproject
+
+
 python manage.py runserver 8000    
 
+
+Admin username : user pwd=123
+
 http://127.0.0.1:8000/myapp001/myview/
+
+http://127.0.0.1:8000/myapp001/students/
 
 when finished:
 CTRL C
